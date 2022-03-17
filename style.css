@@ -1,0 +1,57 @@
+/* Generals */
+body {
+    padding: 0 7%;
+}
+h1 {
+    color: #F2B766;
+}
+p {
+    text-align: justify;
+}
+.button:hover {
+    cursor: pointer;
+}
+/* form */
+textarea {
+    min-height: 10vw;
+    height: auto;
+}
+/* articles */
+article:first-child {
+    margin-top: 0 !important;
+}
+article {
+    border: .2vw solid #7D695A;
+}
+.username {
+    color: #FC7E6A
+}
+/* Screen sizes */
+@media screen and (max-width: 992px) {
+    h1 {
+        font-size: 5vw;
+    }
+    textarea {
+        min-height: 20vw;
+    }
+}
+@media screen and (max-width: 480px) {
+    body {
+        padding: 0 2% !important;
+    }
+    h1 {
+        font-size: 13vw;
+    }
+    h2 {
+        text-align: center;
+    }
+    textarea {
+        min-height: 80vw;
+    }
+    form>.d-flex {
+        justify-content: center!important;
+    }
+    .score {
+        justify-content: center;
+    }
+}
